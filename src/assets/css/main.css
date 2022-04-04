@@ -544,6 +544,9 @@
         list-style-type: none;
         padding: 0 10px;
     }
+    .margin-sm-end {
+        margin: 0 20px;
+    }
 }
 
 @media (max-width: 780px) {
