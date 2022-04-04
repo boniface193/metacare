@@ -25,7 +25,7 @@ export default function Sidebar() {
             </div>
 
 
-            <ul className='list-group list-group-flush'>
+            <ul className='list-style-type-none'>
                 <li className='text-icon'>
                     <i className="fas fa-user-friends text-ico"></i>
                     <span>Admin</span>

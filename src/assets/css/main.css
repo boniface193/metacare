@@ -1,6 +1,10 @@
 .rounded-xlg {
     border-radius: 10px !important;
 }
+.list-style-type-none {
+    list-style-type: none;
+    padding: 0;
+}
 .header-row {
     display: flex;
 }
@@ -535,6 +539,10 @@
         background-color: #fff;
         box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important;
         height: 100%;
+    }
+    .list-style-type-none {
+        list-style-type: none;
+        padding: 0 10px;
     }
 }
 
