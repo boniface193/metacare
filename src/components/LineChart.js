@@ -41,7 +41,7 @@ class LineChart extends Component {
         ]
     }
     return(
-            <div className = 'margin-sm-end mb-3' >
+            <div className = 'margin-sm-end mb-4' >
             <div className='card-border'>
                 <div className='card-ro'>
                     <div className='d-flex justify-content-between pb-3 break-point-row'>
