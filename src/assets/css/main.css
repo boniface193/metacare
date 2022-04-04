@@ -1,6 +1,16 @@
 .rounded-xlg {
     border-radius: 10px !important;
 }
+.arrow-down {
+    color: #E5E4EF;
+    justify-content: end;
+}
+.arrow-down-right {
+    display: flex;
+}
+li:last-of-type .arrow-down{
+    justify-content: end;
+}
 .list-style-type-none {
     list-style-type: none;
     padding: 0;

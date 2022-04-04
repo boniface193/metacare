@@ -1,9 +1,6 @@
 import '../assets/css/main.css'
 
 export default function Sidebar() {
-    function sidebar() {
-        document.querySelector('#d-none').classList.toggle('d-none');
-    };
 
     return (
         <div className="container sidebar">
@@ -22,9 +19,10 @@ export default function Sidebar() {
 
 
             <ul className='list-style-type-none'>
-                <li className='text-icon'>
+                <li className='text-icon d-flex'>
                     <i className="fas fa-user-friends text-ico"></i>
                     <span>Admin</span>
+                    {/* <i className="fas fa-chevron-right arrow-down"></i> */}
                 </li>
 
                 <li className='text-icon'>
