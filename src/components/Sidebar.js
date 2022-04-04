@@ -18,10 +18,6 @@ export default function Sidebar() {
                         </p>
                     </div>
                 </div>
-
-                <div className='p-4 pe-1 d-lg-none' style={{cursor: 'pointer'}}>
-                    <span onClick={sidebar}>x</span> 
-                </div>
             </div>
 
 

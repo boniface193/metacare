@@ -533,11 +533,11 @@
 
 @media (max-width: 991px) {
     .sidebar {
-        position: absolute;
+        position: static;
         z-index: 1;
         width: auto;
         background-color: #fff;
-        box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important;
+        /* box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important; */
          height: 100%;
     }
     .list-style-type-none {
