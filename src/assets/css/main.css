@@ -556,6 +556,10 @@ li:last-of-type .arrow-down{
     .margin-sm-end {
         margin: 0 20px;
     }
+    
+    .smallerScreen {
+        overflow: hidden;
+    }
 }
 
 @media (max-width: 780px) {
@@ -633,6 +637,7 @@ li:last-of-type .arrow-down{
 
     .header-row {
         display: block;
+        margin-bottom: 3px;
     }
     .main-nav {
         font-size: 12px;
@@ -647,11 +652,15 @@ li:last-of-type .arrow-down{
     }
    .dont-show {
        display: none;
-   }
+   } 
    .chart-top-text-card {
         font-size: 12px;
         padding: 4px 16px;
         margin: 8px;
         width: 130px;
     }
+    
+    /* .smallerScreen {
+        overflow: hidden !important;
+    } */
 }

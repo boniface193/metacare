@@ -11,7 +11,7 @@ export default function Header() {
         <div>
             <nav className="pt-3 navbar-light bg-white bg-lighty">
                 <div className="justify-content-between header-row mb-2 margin-sm-end">
-                    <form className="d-flex justify-content-end">
+                    <form className="header-row justify-content-end">
                         <i className="fas fa-align-left py-3 pe-3  d-lg-none" onClick={sidebar}></i>
                         <input type="search" name="name" className="form-control form-control-xtr rounded-xlg" placeholder="Ask us any question" aria-label="Search" />
                         <i className='fas fa-search position-absolute mt-3 mx-4'></i>
