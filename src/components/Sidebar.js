@@ -22,7 +22,7 @@ export default function Sidebar() {
                 <li className='text-icon d-flex'>
                     <i className="fas fa-user-friends text-ico"></i>
                     <span>Admin</span>
-                    <i className="fas fa-chevron-right arrow-down"></i>
+                    {/* <i className="fas fa-chevron-right arrow-down"></i> */}
                 </li>
 
                 <li className='text-icon'>

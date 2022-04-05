@@ -545,7 +545,7 @@ li:last-of-type .arrow-down{
     .sidebar {
         position: static;
         z-index: 1;
-        width: auto;
+        width: 250px;
         background-color: #fff;
         height: 100%;
     }
@@ -660,7 +660,4 @@ li:last-of-type .arrow-down{
         width: 130px;
     }
     
-    /* .smallerScreen {
-        overflow: hidden !important;
-    } */
 }
