@@ -27,7 +27,7 @@ export default function Header() {
                             <div className='hr-right'></div>
                             <div className='d-flex mx-4'>
                                 <div className='small-circle'></div>
-                                <i className='fas fa-chevron-down'></i>
+                                <i className='fas fa-chevron-down chevron-down'></i>
                             </div>
                         </div>
                     </div>
