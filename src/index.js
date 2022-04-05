@@ -9,7 +9,7 @@ import LineChart from './components/LineChart'
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className='d-flex'>
+    <div className='d-flex smallerScreen'>
       <div className='col-lg-2 px-0 d-none d-lg-block' id='d-none'>
         <Sidebar />
       </div>
